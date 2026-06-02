@@ -1,0 +1,43 @@
+{
+  "model_type": "ensemble",
+  "n_samples_trained": 500,
+  "train_size": 400,
+  "test_size": 100,
+  "metrics": {
+    "rmse": 3.657624709915385,
+    "r2": 0.8973920955494191,
+    "mae": 2.9252572145987448
+  },
+  "feature_names": [
+    "Study_Hours",
+    "Attendance",
+    "Prev_Score",
+    "Test_Prep",
+    "Study_x_PrevScore",
+    "Attendance_x_TestPrep",
+    "Study_x_TestPrep",
+    "Study_Hours_squared",
+    "Attendance_squared",
+    "Prev_Score_squared",
+    "Study_to_Attendance_Ratio",
+    "PrevScore_to_Attendance",
+    "Study_Level",
+    "Attendance_Level",
+    "Study_x_PrevScore",
+    "Attendance_x_TestPrep",
+    "Study_x_TestPrep",
+    "Study_Hours_squared",
+    "Attendance_squared",
+    "Prev_Score_squared",
+    "Study_to_Attendance_Ratio",
+    "PrevScore_to_Attendance",
+    "Study_Level",
+    "Attendance_Level"
+  ],
+  "weights": {
+    "rf": 0.5,
+    "gb": 0.3,
+    "lr": 0.2
+  },
+  "scaling_method": "standard"
+}
